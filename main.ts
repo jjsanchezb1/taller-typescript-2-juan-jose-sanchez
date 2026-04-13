@@ -38,7 +38,6 @@ function mostrarDetallesSerie(serie: any): void {
             <div class="card-body">
                 <h5 class="card-title">${serie.name}</h5>
                 <p class="card-text">${serie.description}</p>
-                <a href="${serie.link}" target="_blank" class="btn btn-primary">Ver más</a>
             </div>
         </div>    
     `;
